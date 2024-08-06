@@ -12,4 +12,4 @@ app.use(pinia)
 app.use(router)
 app.mount('#app')
 
-console.log('globalThis.SRENV', globalThis.SRENV)
+console.log('globalThis.ENV', globalThis.ENV)

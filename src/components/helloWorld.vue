@@ -1,6 +1,6 @@
 <script setup>
-const mode = globalThis.SRENV.MODE
-const platform = globalThis.SRENV.PLATFORM
+const mode = globalThis.ENV.MODE
+const platform = globalThis.ENV.PLATFORM
 </script>
 
 <template>
