@@ -1,7 +1,7 @@
-import { useCounterStore } from "../store/useCounterStore"
+import { useCounterStore } from '../store/useCounterStore'
 
 const counterStore = useCounterStore()
 
 export const isLoading = () => {
-    return counterStore.loading
+  return counterStore.loading
 }
